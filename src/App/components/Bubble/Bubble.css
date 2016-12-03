@@ -1,0 +1,73 @@
+.root {
+	
+}
+.root + .root {
+	padding-top: 10px;
+	padding: 7px 11px;
+}
+
+.bubble {
+	border-radius: 16px;
+	position: relative;
+	text-align: left;
+	display: inline-block;
+	max-width: 300px;
+	margin: 0 5px;
+}
+
+.color_yes .bubble {
+	background-color: #7673f3;
+}
+
+.color_no .bubble {
+	background-color: #eee;
+	color: #000;
+}
+
+.content {
+	padding: 10px 20px;
+}
+
+.position_left {
+	text-align: left;
+}
+
+.position_right {
+	text-align: right;
+}
+
+.position_left .corner {
+	left: -5px;
+	border-right-width: 5px;
+}
+
+.position_right .corner {
+	right: -5px;
+	border-right-width: 5px;
+}
+
+.color-yes .corner {
+	border-right-color: #7673f3;
+	border-left-color: #7673f3;
+}
+
+.color-no .corner {
+	border-right-color: #eee;
+	border-left-color: #eee;
+}
+
+.time {
+	color: #000;
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	font-size: 10px;
+}
+
+.position_left .time {
+	right: -26px;
+}
+
+.position_right .time {
+	left: -26px;
+}
